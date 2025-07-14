@@ -1,0 +1,35 @@
+server/uploads/*
+!server/uploads/default.jpg
+
+
+# ------------------
+# General
+# ------------------
+
+# node modules
+**/node_modules
+
+# build outputs
+**/build
+**/dist
+**/.next
+**/out
+
+
+# logs
+**/pnpm-debug.log*
+
+# env
+**/.env
+
+# os specific
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+
+
+**/.tsbuildinfo
