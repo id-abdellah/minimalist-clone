@@ -43,7 +43,7 @@ export default function UserProfile() {
                 </button>
             </div>
 
-            <div popover="auto" id="userProfilePopup" className="rounded-md text-[12px] *:flex *:gap-2 *:items-center *:border-b *:pb-2 *:border-b-secondary-hover *:p-2">
+            <div popover="auto" id="userProfilePopup" className="bg-surface border border-border shadow-border shadow-2xl text-on-surface rounded-md text-[12px] *:flex *:gap-2 *:items-center *:border-b *:pb-2 *:border-b-secondary-hover *:p-2">
                 <div>
                     <span>
                         <FontAwesomeIcon icon={faUser} />

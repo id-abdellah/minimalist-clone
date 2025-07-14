@@ -1,36 +1,34 @@
 :root[data-theme="light"] {
-    /* Primary palette */
-    --primary: #2c5530;
-    --primary-light: #3e7a44;
-    --primary-dark: #1d3720;
-    --primary-hover: #244626;
-
-    /* Secondary palette */
-    --secondary: #848fa5;
-    --secondary-light: #a2adc2;
-    --secondary-dark: #5d6473;
-    --secondary-hover: #6d7992;
-
-    /* Neutral palette */
-    --bg: #f9fafbd5;
+    /* Backgrounds */
+    --bg: #f9fafb;
+    /* App background */
     --surface: #ffffff;
-    --border: #e5e7eb;
-    --text: #222c36;
+    /* Cards, modals, navs */
+    --elevated-surface: #f1f5f9;
+    /* For modals/popups */
 
-    /* "On" colors (for text/icons on backgrounds) */
-    --on-bg: #222c36;
-    /* Text on background */
-    --on-surface: #222c36;
-    /* Text on surface */
+    /* Borders */
+    --border: #d1d5db;
+
+    /* Text */
+    --text: #1f2937;
+
+    /* Accent colors */
+    --primary: #2e7d32;
+    --primary-hover: #256029;
+
+    --secondary: #5c6bc0;
+    --secondary-hover: #3f51b5;
+
+    /* "On" colors */
+    --on-surface: #1f2937;
+    --on-bg: #1f2937;
     --on-primary: #ffffff;
-    /* Text on primary */
-    --on-secondary: #ffffff;
-    /* Text on secondary */
 
-    /* Status colors */
+    /* Status */
     --success: #22c55e;
     --danger: #ef4444;
-    --warning: #f59e42;
+    --warning: #f59e0b;
     --info: #3b82f6;
 }
 

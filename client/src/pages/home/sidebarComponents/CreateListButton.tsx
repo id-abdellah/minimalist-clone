@@ -59,7 +59,7 @@ export default function CreateListButton() {
 
             {
                 dialogVis &&
-                <div className="fixed top-0 left-0 w-dvw h-dvh grid place-content-center bg-on-secondary/30" onClick={toggleDialog}>
+                <div className="fixed top-0 left-0 w-dvw h-dvh grid place-content-center bg-on-surface/20" onClick={toggleDialog}>
 
                     <div className="bg-surface rounded-md p-4 md:w-[350px] w-[250px] space-y-4" onClick={(e) => e.stopPropagation()} >
                         <div className="flex items-center justify-between font-medium">
