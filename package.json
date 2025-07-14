@@ -2,7 +2,15 @@
   "name": "minimalist-clone",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "dev:client": "pnpm -F client dev",
+    "build:client": "pnpm -F client build",
+    "lint:client": "pnpm -F client lint",
+    "preview:client": "pnpm -F client preview",
+    "dev:server": "pnpm -F ./server dev",
+    "build:server": "pnpm -F ./server build",
+    "start:server": "pnpm -F ./server start"
+  },
   "keywords": [],
   "author": "ID-ABDELLAH MOHAMED",
   "license": "MIT",
